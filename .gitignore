@@ -1,0 +1,58 @@
+# Создано https://www.gitignore.io/api/c
+# Изменить на https://www.gitignore.io/?templates=c
+
+### C ###
+# Предпосылки
+* .d
+
+# Объектные файлы
+* .o
+* .ko
+* .obj
+* .elf
+
+# Выход компоновщика
+* .ilk
+*.карта
+* .exp
+
+# Предварительно скомпилированные заголовки
+* .gch
+* .PCH
+
+# Библиотеки
+* .lib
+* .a
+* .la
+* .lo
+
+# Общие объекты (в том числе Windows DLL)
+* .dll
+*.так
+*.так.*
+* .dylib
+
+# Исполняемые файлы
+*.исполняемый файл
+*.вне
+*.приложение
+* .I * 86
+* .x86_64
+* .hex
+
+# Отладочные файлы
+* .DSYM /
+* .su
+* .idb
+* .pdb
+
+# Результаты компиляции модуля ядра
+* .Mod *
+* .cmd
+.tmp_versions /
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+main.exe
+# Конец https://www.gitignore.io/api/c
