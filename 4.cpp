@@ -136,14 +136,17 @@ main() {
 
     FillDec(A, n); //�� ����������� � �����������
     BubbleSort(A, n);
+    FillDec(A, n);
     ShakerSort(A, n);
 
     FillRand(A, n); //������
     BubbleSort(A, n);
+    FillRand(A, n);
     ShakerSort(A, n);
 
     FillInc(A, n); // �� ����������� � �����������
     BubbleSort(A, n);
+    FillInc(A, n);
     ShakerSort(A, n);
 
     cout << endl;
