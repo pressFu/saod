@@ -49,10 +49,5 @@
 # Результаты компиляции модуля ядра
 * .Mod *
 * .cmd
-.tmp_versions /
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-main.exe
-# Конец https://www.gitignore.io/api/c
+
+*.exe
